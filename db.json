@@ -1,9 +1,211 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "properties": [
+    {
+      "id": "1",
+      "name": "Luxury Villa",
+      "location": "Roysambu",
+      "price": "5000",
+      "type": "1 Bedroom",
+      "image": "img/flat1.jpg",
+      "ownerPhone": "0790771314",
+      "ownerEmail": "jose@gmail.com.com"
+    },
+    {
+      "id": "2",
+      "name": "Muthaiga flats",
+      "location": "Muthaiga",
+      "price": "20000",
+      "type": "1 bedroom",
+      "image": "img/flat2.jpg",
+      "ownerPhone": "0790771314",
+      "ownerEmail": "jose@gmail.com.com"
+    },
+    {
+      "id": "3",
+      "name": "x-star flats",
+      "location": "Kasarani",
+      "price": 8000,
+      "type": "Bedsitter",
+      "image": "img/flat3.jpg",
+      "ownerPhone": "0790771314",
+      "ownerEmail": "jose@gmail.com.com"
+    },
+    {
+      "id": "4",
+      "name": "Family Heritage",
+      "location": "Ruaka",
+      "price": "30000",
+      "type": "2 Bedroom",
+      "image": "img/flat4.jpg",
+      "ownerPhone": "0790771314",
+      "ownerEmail": "jose@gmail.com.com"
+    },
+    {
+      "id": "5",
+      "name": "JML flats",
+      "location": "Thika",
+      "price": "20000",
+      "type": "2 Bedroom",
+      "image": "img/flat5.jpg",
+      "ownerPhone": "0790771314",
+      "ownerEmail": "jose@gmail.com.com"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "users": [
+    {
+      "id": "e8f1",
+      "email": "joe@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "1c83",
+      "email": "jane@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "a028",
+      "email": "doe@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "2c04",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "ae11",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e907",
+      "email": "jo@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "0bf7",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "85dd",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "b752",
+      "email": "jo@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e054",
+      "email": "josephirush@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "aca4",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "c338",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "f2b7",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e84d",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "33b3",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "dbec",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "3da2",
+      "email": "joseph@gmail.com",
+      "password": "1234"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "testimonials": [
+    {
+      "id": "1",
+      "userId": "e8f1",
+      "userName": "joe@gmail.com",
+      "rating": 5,
+      "text": "Great experience with House Hunt!",
+      "date": "2024-07-17"
+    },
+    {
+      "id": "1659",
+      "userId": "2c04",
+      "userName": "joseph@gmail.com",
+      "text": "easy user interface",
+      "rating": "4",
+      "date": "2024-07-17"
+    },
+    {
+      "id": "3961",
+      "userId": "2c04",
+      "userName": "joseph@gmail.com",
+      "text": "Awesome experience",
+      "rating": "2",
+      "date": "2024-07-17"
+    },
+    {
+      "id": "c3f9",
+      "userId": "2c04",
+      "userName": "joseph@gmail.com",
+      "text": "Very helpful indeed",
+      "rating": "5",
+      "date": "2024-07-18"
+    },
+    {
+      "id": "c825",
+      "userId": "e907",
+      "userName": "jo@gmail.com",
+      "text": "good website",
+      "rating": "5",
+      "date": "2024-07-18"
+    },
+    {
+      "id": "b8d5",
+      "userId": "2c04",
+      "userName": "joseph@gmail.com",
+      "text": "good",
+      "rating": "4",
+      "date": "2024-07-18"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "3e32",
+      "name": "JOSEPH",
+      "email": "jose@gmail.com",
+      "message": "i want an apartment"
+    },
+    {
+      "id": "6acf",
+      "name": "JOSEPH",
+      "email": "josephirungu898@gmail.com",
+      "message": "want an apartment"
+    },
+    {
+      "id": "03fd",
+      "name": "joseph",
+      "email": "josephirungu898@gmail.com",
+      "message": "I WANT AN APartment"
+    }
+  ]
 }
